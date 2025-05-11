@@ -12,7 +12,7 @@ func sum(nums ...int) int {
 	return sum
 }
 
-func main() {
+func variadic() {
 	fmt.Println(sum(1))
 	fmt.Println(sum(1, 2))
 	fmt.Println(sum(1, 2, 3))
